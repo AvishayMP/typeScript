@@ -47,8 +47,13 @@ const printPerson = (p: Person): void => {
         console.log(`${key}: ${p[key]}`);
     }
 }
-
+// printPerson({
+//     name: 'Jon',
+//     age: 5,
+//     isStudent: true
+// });
 // Task 9:
+
 const isMinor = (p: Person): boolean => {
     return p.age < 18;
 }
@@ -76,6 +81,41 @@ const olderReader = (rArr: Reader[]): Person => {
     });
     return oldestPerson;
 }
+// console.log(olderReader([{
+//     person: {
+//         name: 'aaa',
+//         age: 4,
+//         isStudent: false
+//     },
+//     favoriteBook: {
+//         author: 'bbb',
+//         title: 'haidbs',
+//         year: 1990
+//     }
+// }, {
+//     person: {
+//         name: 'aaa',
+//         age: 2,
+//         isStudent: false
+//     },
+//     favoriteBook: {
+//         author: 'bbb',
+//         title: 'haidbs',
+//         year: 1990
+//     }
+// }, {
+//     person: {
+//         name: 'aaa',
+//         age: 6,
+//         isStudent: false
+//     },
+//     favoriteBook: {
+//         author: 'bbb',
+//         title: 'haidbs',
+//         year: 1990
+//     }
+// }
+// ]));
 
 // Task 13:
 const oldestBook = (rArr: Reader[]): Book => {
