@@ -116,7 +116,7 @@ const getMaxMin = (nums: number[]): MaxMin => {
 // 9.
 // כתוב פונקציה שמקבלת מערך ומדפיסה אותו בסדר הפוך
 const printRevers = (arr: any[]): void => {
-    for (let i = arr.length - 1; i >= 0; i--) {
+    for (let i: number = arr.length - 1; i >= 0; i--) {
         console.log(arr[i]);
     }
 }
